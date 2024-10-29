@@ -13,10 +13,17 @@ namespace GitIntro
 
         public void showHello()
         {
-             Andreas andreas = new Andreas();
+            People andreas = new Andreas();
+            People karin = new Karin();
+            People hanieh = new Hanieh();
 
+            List<People> peopleList = new List<People>{andreas, karin, hanieh };
 
-            Console.WriteLine($"Hello from {andreas.name}");
+            foreach (var person in peopleList)
+            {
+
+            Console.WriteLine($"Hello from {person.name}");
+            }
          
 
 
