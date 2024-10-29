@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace GitIntro
 {
-    internal class Hanieh : People
+    public class People
     {
-        public Hanieh()
-        {         
-        this.name = "Hanieh";
-        }
+        public string name;
     }
 }

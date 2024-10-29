@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace GitIntro
 {
-    internal class Karin
+    internal class Karin : People
     {
-        string name = "Karin";
+        public Karin() 
+        { 
+            this.name = "Karin"; 
+        }
     }
 }
