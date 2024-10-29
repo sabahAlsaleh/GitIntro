@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Bye, group!");
+            Console.WriteLine("Hello, group!");
         }
     }
 }
