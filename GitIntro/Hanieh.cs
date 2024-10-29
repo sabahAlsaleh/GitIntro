@@ -8,6 +8,6 @@ namespace GitIntro
 {
     internal class Hanieh
     {
-        string name = "Hanieh";
+        public string name = "Hanieh";
     }
 }

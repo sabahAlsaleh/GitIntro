@@ -8,6 +8,6 @@ namespace GitIntro
 {
     internal class Karin
     {
-        string name = "Karin";
+       public string name = "Karin";
     }
 }
