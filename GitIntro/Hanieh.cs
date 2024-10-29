@@ -8,6 +8,9 @@ namespace GitIntro
 {
     internal class Hanieh : People
     {
-        public string name = "Hanieh";
+        public Hanieh()
+        {         
+        this.name = "Hanieh";
+        }
     }
 }

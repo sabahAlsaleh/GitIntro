@@ -8,7 +8,12 @@ namespace GitIntro
 {
     public class Andreas : People
     {
-        public string name = "Andreas";
+
+        public Andreas()
+        {
+            this.name = "Andreas";
+        }
+
         int year = 1997;
     }
 }
