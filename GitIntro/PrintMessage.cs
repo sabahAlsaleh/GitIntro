@@ -10,19 +10,19 @@ namespace GitIntro
 {
     public class PrintMessage
     {
-
+        
         public void showHello()
         {
-            People andreas = new Andreas();
-            People karin = new Karin();
-            People hanieh = new Hanieh();
+            Andreas andreas = new Andreas();
+            Karin karin = new Karin();
+            Hanieh hanieh = new Hanieh();
+            
 
             List<People> peopleList = new List<People>{andreas, karin, hanieh };
 
-            foreach (var person in peopleList)
+            for (int i = 0; i < peopleList.Count; i++)
             {
-
-            Console.WriteLine($"Hello from {person.name}");
+            Console.WriteLine($"Hello from {peopleList[i].name}");
             }
          
 
