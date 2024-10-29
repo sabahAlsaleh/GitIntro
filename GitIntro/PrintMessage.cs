@@ -5,16 +5,26 @@ using System.Text;
 using System.Threading.Channels;
 using System.Threading.Tasks;
 
+
 namespace GitIntro
 {
     public class PrintMessage
     {
 
-        void showHello()
+        public void showHello()
         {
-            Console.WriteLine("Hello from Sabah ");
-            Console.WriteLine("Hello from Hanieh ");
-            Console.WriteLine("Hello from Karin ");
+            People andreas = new Andreas();
+            People karin = new Karin();
+            People hanieh = new Hanieh();
+
+            List<People> peopleList = new List<People>{andreas, karin, hanieh };
+
+            foreach (var person in peopleList)
+            {
+
+            Console.WriteLine($"Hello from {person.name}");
+            }
+         
 
 
         }
