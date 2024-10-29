@@ -9,5 +9,6 @@ namespace GitIntro
     internal class Andreas
     {
         string name = "Andreas";
+        int year = 1997;
     }
 }
